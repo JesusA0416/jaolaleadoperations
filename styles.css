@@ -63,3 +63,30 @@
 .property-head .eyebrow{font-size:12px}
 @media(min-width:1121px){.mobile-tabs{display:none!important}}
 @media(max-width:1120px){.nav{display:none}.mobile-tabs{display:flex}}
+
+/* JAOLA v0.3: lead activity timeline */
+.lead-row-actions{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.activity-dialog{max-width:680px;max-height:min(88vh,860px);overflow:auto}
+.activity-header{padding:23px 25px 17px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.activity-header h2{font-size:22px;line-height:1.3;margin:3px 0 6px}
+.activity-header p{font-size:12px;line-height:1.5;color:var(--muted);margin:0}
+.activity-dismiss{flex:none;border:1px solid var(--border);background:#fff;border-radius:10px;padding:8px 11px;font-weight:700;color:var(--text)}
+.activity-content{padding:22px 25px}
+.activity-caption{font-weight:750;font-size:13px;margin:0 0 12px}
+.activity-list{list-style:none;padding:0;margin:0 0 19px;display:grid;gap:11px}
+.activity-entry{border:1px solid var(--border);border-radius:12px;padding:13px;background:#fff}
+.activity-entry-top{display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+.activity-entry-type{border-radius:100px;font-size:11px;font-weight:750;background:var(--tealLight);color:var(--teal);padding:5px 9px}
+.activity-entry-date{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.activity-entry-note{font-size:13px;line-height:1.55;margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.activity-entry-footer{display:flex;justify-content:flex-end;margin-top:9px}
+.activity-delete{border:0;background:none;color:var(--red);cursor:pointer;font-weight:650;font-size:12px;padding:6px}
+.activity-create{padding:16px;border:1px solid var(--border);border-radius:13px;background:#f8fafc}
+.activity-create h3{font-size:14px;margin:0 0 12px}
+.activity-create label{display:grid;gap:7px;font-size:12px;font-weight:700;color:#425368;margin-bottom:12px}
+.activity-create select,.activity-create textarea{width:100%;border-radius:9px;border:1px solid #d5dfe8;background:#fff;color:var(--text);font:inherit;font-weight:400;padding:10px}
+.activity-create textarea{min-height:85px;resize:vertical}
+.activity-create .modalactions{padding:0}
+.activity-warning{font-size:11px;color:var(--muted);margin:13px 0 0;line-height:1.5}
+.activity-empty{border:1px dashed var(--border);border-radius:12px;padding:18px;color:var(--muted);font-size:13px;margin-bottom:17px}
+@media(max-width:620px){.activity-header{padding:17px}.activity-content{padding:17px}}

@@ -11,13 +11,13 @@ This is a *proposed* backlog. Prioritize based on interviews with real estate te
 
 ## Phase 1 — Improve the demo (can remain static and free)
 
-- [ ] Functional `Inmuebles`/property catalog with fictional data
+- [x] Functional `Inmuebles`/property catalog with fictional data
 - [ ] Lead detail view with activity notes and next-action history
 - [ ] Sort/filter by assigned agent and due date
 - [ ] Useful status transitions and input validation
 - [ ] Add automated browser tests for add/edit/filter/export/reset
 - [ ] Improve accessibility, mobile layout, and error messages
-- [ ] Add EN/ES interface language switch
+- [x] Add EN/ES interface language switch
 
 ## Phase 2 — Secure pilot application (backend required)
 
