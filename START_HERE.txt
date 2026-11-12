@@ -1,9 +1,0 @@
-JAOLA LEAD OPERATIONS DEMO
-
-On a Mac:
-1. Unzip JAOLA_Demo_Package.zip by double-clicking it.
-2. Open JAOLA_Lead_Operations_Interactive_Demo.html in Safari or Chrome. You can drag the HTML file onto an open browser window.
-3. This is an offline demo; do not enter real customer personal information.
-4. The workbook is an Excel alternative.
-
-If your browser asks for permission to open the local file, open it directly using File > Open File (Command-O), or drag and drop the HTML onto a browser window.
