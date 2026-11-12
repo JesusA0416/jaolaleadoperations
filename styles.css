@@ -49,3 +49,17 @@
 @media(max-width:1120px){.mobile-tabs{display:flex}}
 @media(max-width:760px){.property-grid{grid-template-columns:1fr}}
 @media(max-width:620px){.property-stats{grid-template-columns:1fr 1fr}.property-stat:last-child{grid-column:span 2}.property-head{display:block}.property-actions{margin-top:15px}}
+
+/* v0.2.1: consistent desktop/mobile navigation and property inventory polish. */
+.nav button{appearance:none;-webkit-appearance:none;display:block;width:100%;padding:13px 14px;margin:6px 0;border:0;border-radius:11px;background:transparent;color:#d8e6ef;text-align:left;font:600 14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;cursor:pointer;transition:background .15s ease}
+.nav button.active{background:var(--navy2);color:#fff}
+.nav button:focus-visible,.mobile-tabs button:focus-visible,.property-card button:focus-visible{outline:3px solid #40c7b3;outline-offset:2px}
+.nav button b{font-weight:inherit}
+.property-card{display:flex;flex-direction:column;gap:2px}
+.property-card .tools{margin-top:auto;padding-top:15px}
+.property-card .tools button:hover{background:var(--tealLight);border-color:#a8d9d0}
+.property-card .tools button.danger-link:hover{background:#fff0f1;border-color:#f0c7ce}
+.property-stat strong{display:block;font-variant-numeric:tabular-nums}
+.property-head .eyebrow{font-size:12px}
+@media(min-width:1121px){.mobile-tabs{display:none!important}}
+@media(max-width:1120px){.nav{display:none}.mobile-tabs{display:flex}}
